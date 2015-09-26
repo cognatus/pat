@@ -1,0 +1,11 @@
+{
+    "url": "/sites/pat",
+    "description": "Sistema para la Administración y Gestión de Asesorías",
+    "type": "project",
+    "require": {
+        "php": ">= 5.3.0"
+    },
+    "autoload": {
+        "psr-4": {}
+    }
+}
