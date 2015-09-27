@@ -3,9 +3,12 @@
     "description": "Sistema para la Administración y Gestión de Asesorías",
     "type": "project",
     "require": {
-        "php": ">= 5.3.0"
+        "php": ">= 5.3.0",
+        "dompdf/dompdf" : "0.6.*"
     },
     "autoload": {
-        "psr-4": {}
+        "psr-4": {
+            "App\\" : "course/"
+        }
     }
 }
